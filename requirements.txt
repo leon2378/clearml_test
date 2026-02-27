@@ -3,5 +3,5 @@ torchvision
 clearml
 numpy
 pandas
-sklearn
+scikit-learn
 matplotlib
