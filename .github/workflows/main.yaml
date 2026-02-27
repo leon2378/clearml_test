@@ -23,7 +23,7 @@ jobs:
 
       - name: Run dataset + training
         run: |
-          python create_dataset.py
+          python dataset.py
           python train.py
         env:
           CLEARML_API_ACCESS_KEY: ${{ secrets.CLEARML_API_ACCESS_KEY }}
